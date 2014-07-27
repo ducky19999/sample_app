@@ -1,11 +1,9 @@
 source 'https://rubygems.org'
-ruby "1.9.3"
+# ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 gem 'bootstrap-sass'
-#gem 'bcrypt-ruby', '>= 3.1.2'
-gem 'bcrypt'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
@@ -14,7 +12,8 @@ gem 'bootstrap-will_paginate'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  #gem 'guard-rspec', '>= 2.5.0'
+  gem 'rspec-its'
+  gem 'rspec-collection_matchers'
   gem 'spring'
   gem 'spring-commands-rspec'
 end
@@ -55,11 +54,10 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '>= 0.15.1'
-  gem 'rails_12factor', '>= 0.0.2'
+  gem 'pg', '= 0.17.1'
+  gem 'rails_12factor', '= 0.0.2'
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt'
 
-# Use 
