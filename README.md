@@ -6,6 +6,8 @@
 
 ## Ruby on Rails チュートリアル：サンプルアプリケーション
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ducky19999/sample_app?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 これは、以下のためのサンプルアプリケーションです。
 [*Ruby on Rails Tutorial*](http://railstutorial.jp/)
 by [Michael Hartl](http://michaelhartl.com/).
